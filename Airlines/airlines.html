@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Passengers Info</title>
+    <link rel="stylesheet" href="airlines.css">
+</head>
+<body id="body">
+    <button id="prevbtn" onclick="prevbtn()"> < </button>
+    <button id="nextbtn" onclick="nextbtn()"> > </button>
+    <main id="mainpart">
+        <div id="content">
+            <article>
+            <header>
+                <aside>
+                    <h1>Name</h1>
+                    <h3>Trips</h3>
+                </aside>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Qantas_Airways_logo_2016.svg/300px-Qantas_Airways_logo_2016.svg.png" alt="">
+            </header>
+            <section>
+                <h1>AirlineName</h1>
+                <h2>Country</h2>
+                <h3>Established</h3>
+                <h4>slogan</h4>
+            </section>
+            </article>
+        </div>
+    </main>
+    <footer >
+        <select name="pages" id="pagesList">
+            <option value="">Choose an option!</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+        </select>
+        <div id="pageNumbers">
+            <button class="pageNum" id="1" value="1">0</button>
+            <button class="pageNum" id="2" value="2">1</button>
+            <button class="pageNum" id="3" value="3">2</button>
+            <button class="pageNum" id="4" value="4">3</button>
+        </div>
+    </footer>
+    <script src="airlines.js"></script>
+</body>
+
+</html>

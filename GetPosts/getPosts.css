@@ -1,0 +1,16 @@
+main{
+    width: 40rem;
+    height: auto;
+}
+button{
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 5rem;
+
+}
+section{
+padding: 1rem;    margin: 1rem;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 1rem;
+}
